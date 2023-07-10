@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Own Cheatsheets</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <h2 class="elements">Form Elements</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;form&gt;</span>
+                    </td>
+                    <td>Form</td>
+                    <td>collect information in <em>input</em> elements and send via <em>action</em> and <em>method</em> attribute</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;input&gt;</span>
+                    </td>
+                    <td>Input</td>
+                    <td>render a variety of inputs with <em>type</em> attributes like text, checkbox, button..</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;select&gt;</span>
+                    </td>
+                    <td>Select</td>
+                    <td>create a dropdown list with only one <em>option</em> can be selected</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;datalist&gt;</span>
+                    </td>
+                    <td>Datalist</td>
+                    <td>multiple <em>option</em> elements but also allow to write alternative inputs</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;textarea&gt;</span>
+                    </td>
+                    <td>Textarea</td>
+                    <td>text-box for multi-line input with <em>rows</em> and <em>cols</em> attributes</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="monospace">&lt;label&gt;</span>
+                    </td>
+                    <td>Label</td>
+                    <td>identification with matching values of input <em>id</em> and label <em>for</em> attribute</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="attributes">Form Attributes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>name</td>
+                    <td>for input to send data it needs key-value pairs where only name need to be specified</td>
+                </tr>
+                <tr>
+                    <td>required</td>
+                    <td>specifies that the field must include a value</td>
+                </tr>
+                <tr>
+                    <td>max</td>
+                    <td>validator for inputs of type <em>number</em> specifies the maximum value</td>
+                </tr>
+                <tr>
+                    <td>min</td>
+                    <td>validator for inputs of type <em>number</em> specifies the minimum value</td>
+                </tr>
+                <tr>
+                    <td>maxlength</td>
+                    <td>validator for input of type <em>text</em> specifies the maximum number of characters</td>
+                </tr>
+                <tr>
+                    <td>minlength</td>
+                    <td>validator for input of type <em>text</em> specifies the minimum number of characters</td>
+                </tr>
+                <tr>
+                    <td>pattern</td>
+                    <td>regular expression to match against the value of the input, i.e. pattern="[A-Za-z]{3}"</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="types">Input Types</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>checkbox</td>
+                    <td>render a single checkbox; checkboxes with same topic should use the same name</td>
+                </tr>
+                <tr>
+                    <td>number</td>
+                    <td>allow to enter only numbers</td>
+                </tr>
+                <tr>
+                    <td>range</td>
+                    <td>range slider as a selector between minimum and maximum and can use <em>step</em> attribute</td>
+                </tr>
+                <tr>
+                    <td>text</td>
+                    <td>single row to enter only text</td>
+                </tr>
+                <tr>
+                    <td>radio</td>
+                    <td>only a single option can be chosen from a group of radio buttons with the same name</td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td>single row to enter censored text</td>
+                </tr>
+            </tbody>
+        </table>   
+    </body>
+</html>

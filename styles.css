@@ -1,0 +1,54 @@
+h1 {
+    margin: 10px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.elements {
+    margin: 10px 10px 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+table {
+    display: table;
+    color: black;
+    border: 3px solid rgb(165, 14, 14);
+    width: 720px;
+    margin: 0 auto;
+}
+tr {
+    border: 1px solid black;
+}
+th {
+    background-color: aquamarine;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font: 1em sans-serif;
+}
+.attributes {
+    margin: 20px 10px 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+body {
+    background-color: antiquewhite
+}
+.monospace {
+    font-family: monospace;
+}
+span.monospace {
+    background-color: white;
+}
+.types {
+    margin: 20px 10px 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
